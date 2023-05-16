@@ -15,6 +15,6 @@ public class Iphone extends SmartPhone implements MediaPlayer, GPS {
 	}
 	
 	public String getLocation() {
-		return "15.23456, -30.67890";
+		return "Location: 15.23456, -30.67890";
 	}
 }

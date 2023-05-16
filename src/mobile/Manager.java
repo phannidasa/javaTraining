@@ -32,6 +32,9 @@ public class Manager {
 		
 		phone01.installApplication("Facebook");
 		
+		String getLocation = phone01.getLocation();
+		System.out.println(getLocation);
+		
 		System.out.println("Number phone: ");
 		phoneItem.forEach(phone -> System.out.println(phone));
 		
